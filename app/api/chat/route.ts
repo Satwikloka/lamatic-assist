@@ -10,8 +10,6 @@ import { RunnableSequence, Runnable, RunnableLike } from "@langchain/core/runnab
 import { AIMessageChunk } from "@langchain/core/messages";
 import nodemailer from "nodemailer";
 import { Pinecone } from "@pinecone-database/pinecone";
-import dotenv from 'dotenv';
-dotenv.config();
 const SUPABASE_URL = process.env.SUPABASE_URL!;
 const SUPABASE_KEY = process.env.SUPABASE_KEY!;
 const PINECONE_API_KEY = process.env.PINECONE_API_KEY!;
